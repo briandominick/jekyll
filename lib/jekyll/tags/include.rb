@@ -109,7 +109,8 @@ MSG
       end
 
       def tag_includes_dirs(context)
-        Array('_templates/liquid')
+        temps_dir = Array.new()
+        temps_dir << '_templates/liquid'
       end
 
       def locate_include_file(context, file, safe)
