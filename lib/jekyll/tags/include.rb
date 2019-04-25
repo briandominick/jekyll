@@ -109,7 +109,7 @@ MSG
       end
 
       def tag_includes_dirs(context)
-        context.registers[:site].includes_load_paths.freeze
+        Array('_templates/liquid')
       end
 
       def locate_include_file(context, file, safe)
