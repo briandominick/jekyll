@@ -111,6 +111,7 @@ MSG
       def tag_includes_dirs(context)
         temps_dir = Array.new()
         temps_dir << '_templates/liquid'
+        puts temp_dir[0]
         temps_dir
       end
 
